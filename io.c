@@ -7805,8 +7805,8 @@ rb_io_print(int argc, const VALUE *argv, VALUE out)
  *
  *  <em>produces:</em>
  *
- *     cat12399
- *     cat, 1, 2, 3, 99
+ *     cat[1, 2, 3]99
+ *     cat, [1, 2, 3], 99
  */
 
 static VALUE
